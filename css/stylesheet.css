@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("/img/minecraft.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: "Open Sans", Helvetica;
+	margin: 0;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin: 0;
+	padding: 3px;
+}
+
+.instruction {
+	display: inline-block;
+	margin-left: 30%;
+	padding: 10px 10;
+	background-color: rgba(14, 208, 214, 0.233);
+	font-size: 1em;
+	color: white;
+	border-radius: 1px 0 1px 0;
+	line-height: 30px;
+}
+
+.title {
+	color: rgb(0, 0, 0);
+	margin-left: 40%;
+	padding: 2px;
+	font-variant-position: normal;
+}
+
+.ph {
+	color: rgb(0, 0, 0);
+	margin-left: 25%;
+	padding: 1px 1px;
+}
